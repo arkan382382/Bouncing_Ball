@@ -52,12 +52,11 @@ public class Ball extends JPanel implements Runnable {
             repaint();
         }
     }
-    public void changeColor(int numberOfColor){
-        color = numberOfColor;
+    public void changeColor(int color){
+        this.color = color;
     }
     public void paintComponent(Graphics g)
     {
-
         super.paintComponent(g);
       /*  if ( bouncing ) {
             g.setColor( Color.blue );
