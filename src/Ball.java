@@ -3,7 +3,7 @@ import java.awt.*;
 
 public class Ball extends JPanel implements Runnable {
     private boolean xUp, yUp, bouncing;
-    private int x, y, xDx, yDy, color;
+    private int x=200, y=200, xDx, yDy, color;
     private final int MAX_X = 400, MAX_Y = 400;
 
     public Ball(){

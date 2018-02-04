@@ -3,14 +3,12 @@ import javax.swing.*;
 public class BouncingBalls extends JFrame {
     public BouncingBalls()
     {
-
         setResizable(true);
         setSize(400,400);
 
         Ball ball1 = new Ball();
         Ball ball2 = new Ball();
         Ball ball3 = new Ball();
-
 
         ball1.changeColor(1);
         ball2.changeColor(2);
